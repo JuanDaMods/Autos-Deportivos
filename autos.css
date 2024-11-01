@@ -1,0 +1,84 @@
+header {
+    background-color: #ffffff;
+    height: 50px;
+  }
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+ul {
+    list-style-type: none;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+  }
+li {
+    margin: 0;
+  }
+a {
+    text-decoration: none;
+    color: rgb(82, 76, 76);
+    padding: 15px 20px;
+    transition: background 0.3s;
+    text-align: center;
+  }
+a:hover {
+    background-color: #9e9e9e;
+  }
+.item {
+width: 10em;
+}
+h1 {
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    border: solid;
+    border-radius: 20px;
+  }
+body {
+    background-image: url(fondoXD.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    max-width: 450px;
+    max-height: 350px;
+    margin-right: 20px;
+    border: solid;
+    border-radius: 20px;
+    text-align: right;
+    border-color: white;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.carton {
+    display: flex;
+    align-items: center;
+}
+    
+.image {
+    max-width: 450px;
+    max-height: 350px;
+    margin-left: 20px;
+    border: solid;
+    border-radius: 20px;
+    text-align: right;
+    border-color: white;
+}
+
+
